@@ -1,0 +1,231 @@
+{
+  "id": "68aca487172f21bdaf95296b",
+  "title": "AI Agents",
+  "description": "This course explores the field of artificial intelligence by focusing on the theory and development of AI agents.",
+  "learningObjectives": [
+    "Understand the core concepts and foundational theories of artificial intelligence",
+    "Identify different types of AI agents and their applications",
+    "Design and implement simple AI agents",
+    "Evaluate the performance of AI agents"
+  ],
+  "finalProjectDetails": {
+    "overview": "For the final project, students will design, implement, and evaluate their own AI agent.",
+    "planningResources": [
+      "AI agent design blueprint",
+      "AI performance metrics toolkit",
+      "Guide to ethical AI"
+    ],
+    "submissionInstructions": "Compile your code, performance metrics, and a written report detailing your design choices, implementation process, performance evaluation, and ethical considerations into a single zip file. Submit this file through the course portal.",
+    "requirements": [
+      ""
+    ]
+  },
+  "createdBy": {
+    "name": "Tammam Alwafai",
+    "githubUsername": "1992tw"
+  },
+  "contributors": [],
+  "status": "pending",
+  "originalGithubUrl": null,
+  "remoteGithubUrl": "https://github.com/1992tw/ai-agents",
+  "createdAt": "2025-08-25T17:59:35.098Z",
+  "updatedAt": "2025-08-25T17:59:35.098Z",
+  "lessonCount": 4,
+  "lessonMetadata": [
+    {
+      "id": "68aca487172f21bdaf952970",
+      "lessonNumber": 1,
+      "title": "Introduction to AI and its Agents",
+      "status": "complete",
+      "assignment": {
+        "title": "Exploring AI Agent Concepts",
+        "objective": "To understand and explore the different types of AI agents and their capabilities.",
+        "expectedCapabilities": [
+          "Identify types of AI agents",
+          "Describe capabilities of different AI agents"
+        ],
+        "submissionInstructions": "Submit your report as a PDF.",
+        "tasks": [
+          {
+            "taskNumber": 1,
+            "title": "Describe AI agents",
+            "description": "Write a brief report detailing the functionality of simple reflex, model-based, goal-based, and utility-based agents.",
+            "codeExample": "N/A",
+            "_id": "68aca4d9172f21bdaf9529a8"
+          }
+        ],
+        "instructions": [
+          {
+            "partNumber": 1,
+            "steps": [
+              {
+                "taskNumber": 1,
+                "title": "Research different AI agents",
+                "description": "Students will research and describe four types of AI agents discussed in the lesson, expanding on their functionalities and real-world applications.",
+                "codeExample": "N/A",
+                "_id": "68aca4d9172f21bdaf9529a7"
+              }
+            ],
+            "_id": "68aca4d9172f21bdaf9529a6"
+          }
+        ],
+        "checklist": [
+          "All agent types described",
+          "Capabilities discussed",
+          "Real-world examples included"
+        ],
+        "checkForUnderstanding": [
+          {
+            "question": "What defines a simple reflex agent?",
+            "options": [
+              "It learns from past experiences",
+              "It acts based on current percepts",
+              "It uses a utility function"
+            ],
+            "answer": "It acts based on current percepts",
+            "_id": "68aca4d9172f21bdaf9529a4"
+          },
+          {
+            "question": "Which agent type updates its state based on percept history?",
+            "options": [
+              "Simple Reflex Agent",
+              "Model-based Reflex Agent",
+              "Goal-based Agent"
+            ],
+            "answer": "Model-based Reflex Agent",
+            "_id": "68aca4d9172f21bdaf9529a5"
+          }
+        ]
+      },
+      "subsections": [
+        {
+          "subsectionOrder": 1,
+          "title": "History and Evolution of Artificial Intelligence",
+          "content": "Artificial Intelligence (AI) has its roots in philosophical inquiries into the mind and intelligence. The term 'artificial intelligence' was coined by John McCarthy in 1956 at the Dartmouth Conference. Since then, AI has evolved from simple automated programs to complex systems capable of learning and decision-making.",
+          "videoUrl": "http://video.com/historyAI",
+          "codeExamples": [],
+          "externalLinks": [
+            "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+          ],
+          "quizzes": [
+            {
+              "question": "Who coined the term 'artificial intelligence'?",
+              "options": [
+                "Alan Turing",
+                "John McCarthy",
+                "Elon Musk"
+              ],
+              "answer": "John McCarthy",
+              "_id": "68aca4d9172f21bdaf95299f"
+            }
+          ],
+          "_id": "68aca4d9172f21bdaf95299e"
+        },
+        {
+          "subsectionOrder": 2,
+          "title": "Understanding AI Agents",
+          "content": "AI agents are systems capable of perceiving their environment through sensors and acting upon it with actuators. These agents can be simple, rule-based systems or complex neural networks capable of learning from data.",
+          "videoUrl": "http://video.com/understandingAIAgents",
+          "codeExamples": [
+            "# Pseudo-code for a simple reflex agent",
+            "def simple_reflex_agent(percepts): if percepts == 'obstacle_ahead': return 'turn_left'"
+          ],
+          "externalLinks": [
+            "https://artint.info/html/ArtInt_4.html"
+          ],
+          "quizzes": [
+            {
+              "question": "What do AI agents use to perceive their environment?",
+              "options": [
+                "Actuators",
+                "Sensors",
+                "Motors"
+              ],
+              "answer": "Sensors",
+              "_id": "68aca4d9172f21bdaf9529a1"
+            }
+          ],
+          "_id": "68aca4d9172f21bdaf9529a0"
+        },
+        {
+          "subsectionOrder": 3,
+          "title": "Types of AI Agents",
+          "content": "There are several types of AI agents, categorized based on their capabilities:\n1. Simple Reflex Agents\n2. Model-based Reflex Agents\n3. Goal-based Agents\n4. Utility-based Agents",
+          "videoUrl": "http://video.com/typesOfAIAgents",
+          "codeExamples": [
+            "# Example of a goal-based agent pseudo-code",
+            "def goal_based_agent(percepts, goals): if close_to_goal(percepts, goals): return 'act_to_achieve_goal'"
+          ],
+          "externalLinks": [],
+          "quizzes": [
+            {
+              "question": "Which type of agent operates based on a utility function?",
+              "options": [
+                "Simple Reflex Agent",
+                "Utility-based Agent",
+                "Goal-based Agent"
+              ],
+              "answer": "Utility-based Agent",
+              "_id": "68aca4d9172f21bdaf9529a3"
+            }
+          ],
+          "_id": "68aca4d9172f21bdaf9529a2"
+        }
+      ],
+      "supplementalVideos": [
+        "http://video.com/introToAI"
+      ],
+      "references": [
+        "https://en.wikipedia.org/wiki/Intelligent_agent",
+        "http://aima.cs.berkeley.edu/",
+        "https://towardsdatascience.com/the-different-types-of-agents-used-in-artificial-intelligence-b59088c5c177"
+      ],
+      "podcastUrl": "https://www.youtube.com/results?search_query=mon+amour+guitar+concert"
+    },
+    {
+      "id": "68aca487172f21bdaf952971",
+      "lessonNumber": 2,
+      "title": "Foundations of AI Agents",
+      "status": "pending",
+      "assignment": {
+        "title": "Assignment will be generated",
+        "objective": "Objective will be provided when lesson is generated",
+        "expectedCapabilities": [],
+        "instructions": [],
+        "tasks": [],
+        "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+      },
+      "subsections": []
+    },
+    {
+      "id": "68aca487172f21bdaf952972",
+      "lessonNumber": 3,
+      "title": "Building AI Agents",
+      "status": "pending",
+      "assignment": {
+        "title": "Assignment will be generated",
+        "objective": "Objective will be provided when lesson is generated",
+        "expectedCapabilities": [],
+        "instructions": [],
+        "tasks": [],
+        "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+      },
+      "subsections": []
+    },
+    {
+      "id": "68aca487172f21bdaf952973",
+      "lessonNumber": 4,
+      "title": "Evaluating AI Agents",
+      "status": "pending",
+      "assignment": {
+        "title": "Assignment will be generated",
+        "objective": "Objective will be provided when lesson is generated",
+        "expectedCapabilities": [],
+        "instructions": [],
+        "tasks": [],
+        "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+      },
+      "subsections": []
+    }
+  ]
+}
